@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GargieSK/GargieSK/main/banner.png" width="100%" />
+</p>
+
+
 # Hi, I'm Gargie Surajkumar 👋
 
 Final-year Computer Science & Engineering student focused on cybersecurity, robotics, artificial intelligence, and full‑stack development. I build secure, reliable systems that connect physical hardware to intelligent software and modern web experiences.
