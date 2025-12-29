@@ -49,3 +49,6 @@ If you'd like, I can commit these changes and add your real contact links. Want 
 ![Gargie's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&layout=compact&theme=tokyonight)
 ![Snake animation](https://github.com/YOURUSERNAME/YOURUSERNAME/blob/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <img src="https://github.com/YOURUSERNAME/YOURUSERNAME/blob/main/BANNERFILENAME.png"/>
+</p>
