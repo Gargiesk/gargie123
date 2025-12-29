@@ -1,0 +1,21 @@
+name: Generate Snake
+
+on:
+  push:
+  schedule:
+    - cron: "0 */12 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@master
+        with:
+          github_user_name: YOURUSERNAME
+          outputs: dist/snake.svg
+
+      - name: Push snake
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "🐍 Update snake"
+          add: "dist/snake.svg"
