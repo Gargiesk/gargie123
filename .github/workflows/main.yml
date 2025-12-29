@@ -1,9 +1,9 @@
-name: Generate Snake
+name: Generate Snake Game
 
 on:
-  push:
-  schedule:
+  schedule: 
     - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,7 +12,7 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v3
 
       - name: Generate Snake
@@ -21,8 +21,9 @@ jobs:
           github_user_name: Gargiesk
           outputs: dist/snake.svg
 
-      - name: Push snake
+      - name: Push to output branch
         uses: EndBug/add-and-commit@v9
         with:
+          branch: output
+          message: "update snake 🐍"
           add: "dist/snake.svg"
-          message: "🐍 update snake animation"
