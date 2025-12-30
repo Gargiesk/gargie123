@@ -68,7 +68,7 @@ Right now, I’m focused on **engineering-first projects** that help me grow as 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gargiesk&theme=radical"/> 
   <br> 
   <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Gargiesk&theme=react-dark&hide_border=true&area=true"/>
-</p> ---
+</p> 
 
 
 ---
